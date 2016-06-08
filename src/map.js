@@ -40,19 +40,20 @@ function DisplaySectors(map){
     return {
       fillColor: 'blue',
       strokeColor : 'blue',
+      clickable : false,
       strokeWeight: 1
     };
   });
-  map.data.addListener('mouseover', function(event) {
+  map.data.addListener('mousedown', function(event) {
     map.data.revertStyle();
     map.data.overrideStyle(event.feature, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
     document.getElementById('info-box').textContent = event.feature.getProperty('NOM_SECTEUR');
   });
 
-  map.data.addListener('mouseout', function(event) {
+  /*map.data.addListener('mouseup', function(event) {
     map.data.revertStyle();
     document.getElementById('info-box').textContent = "";
-  });
+  });*/
 }
 
 function SearchAdress(map){
