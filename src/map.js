@@ -1,4 +1,5 @@
 var map;
+var polySecteurs;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 43.710173, lng: 7.261953199999994},
@@ -8,8 +9,33 @@ function initMap() {
   SearchAdress(map);
 }
 
+function PinInPolygone(map, latLang){
+  var layerContaintPin;
+  map.data.forEach(function(feature){
+    var geo =  feature.getGeometry();
+    var paths;
+
+    if (geo.getType() === "MultiPolygon" ){
+      var multiPolygon= Array();
+      geo["j"][0]["j"].forEach(function(polygone){
+         multiPolygon.push(polygone["j"]);
+      });
+      paths = multiPolygon;
+    }
+    else {
+      paths = geo["j"][0]["j"];
+    }
+
+    var secteur = new google.maps.Polygon({paths:paths});
+    if ( google.maps.geometry.poly.containsLocation(latLang,secteur)){
+      layerContaintPin = feature;
+    }
+  });
+  return layerContaintPin;
+}
+
 function DisplaySectors(map){
-  map.data.addGeoJson(secteurs);
+  var test = map.data.addGeoJson(secteurs);
   map.data.setStyle(function(feature) {
     return {
       fillColor: 'blue',
@@ -18,7 +44,6 @@ function DisplaySectors(map){
     };
   });
   map.data.addListener('mouseover', function(event) {
-    console.log(event);
     map.data.revertStyle();
     map.data.overrideStyle(event.feature, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
     document.getElementById('info-box').textContent = event.feature.getProperty('NOM_SECTEUR');
@@ -76,6 +101,8 @@ function SearchAdress(map){
       }));
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
+      var layerContaintPin = PinInPolygone(map,place.geometry.location);
+      console.log(layerContaintPin);
 
       var address = '';
       if (place.address_components) {
@@ -89,18 +116,4 @@ function SearchAdress(map){
       infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + address);
       infowindow.open(map, marker);
     });
-
-    // Sets a listener on a radio button to change the filter type on Places
-    // Autocomplete.
-    function setupClickListener(id, types) {
-      var radioButton = document.getElementById(id);
-      radioButton.addEventListener('click', function() {
-        autocomplete.setTypes(types);
-      });
-    }
-
-    setupClickListener('changetype-all', []);
-    setupClickListener('changetype-address', ['address']);
-    setupClickListener('changetype-establishment', ['establishment']);
-    setupClickListener('changetype-geocode', ['geocode']);
 }
