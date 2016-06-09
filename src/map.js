@@ -40,7 +40,6 @@ function DisplaySectors(map){
     return {
       fillColor: 'blue',
       strokeColor : 'blue',
-      clickable : false,
       strokeWeight: 1
     };
   });
@@ -103,7 +102,7 @@ function SearchAdress(map){
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
       var layerContaintPin = PinInPolygone(map,place.geometry.location);
-      console.log(layerContaintPin);
+      console.log(layerContaintPin['H'].NOM_SECTEUR);
 
       var address = '';
       if (place.address_components) {
@@ -114,7 +113,7 @@ function SearchAdress(map){
         ].join(' ');
       }
 
-      infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + address);
+      infowindow.setContent('<div><strong>COLLEGE ' + layerContaintPin['H'].NOM_SECTEUR + '</strong><br>' + address);
       infowindow.open(map, marker);
     });
 }
