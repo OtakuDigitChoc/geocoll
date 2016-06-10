@@ -42,7 +42,7 @@ function DisplaySectors(map){
   map.data.addGeoJson(secteurs,'1');
   map.data.setStyle(function(feature) {
     return {
-      fillColor: 'blue',
+      fillColor: false,
       strokeColor : 'blue',
       clickable : false,
       strokeWeight: 1
@@ -145,12 +145,11 @@ function DisplayColleges(map){
   };
   $.ajax('data/colleges.kml').done(function(geojsonColleges) {
       var infoWindowActive = null;
+      var markers = [];
       var colleges = toGeoJSON.kml(geojsonColleges);
-      console.log(colleges);
       colleges.features.forEach(function(college){
         var properties = college.properties;
         var geometry = college.geometry;
-        console.log(properties);
         var contentInfo = '<strong>'+properties.coll_nom1+'  '+ properties.coll_nom2+'</strong><br>';
             contentInfo += properties.coll_adr +' '+properties.coll_com+'<br>';
             contentInfo += properties.coll_tel;
@@ -164,11 +163,17 @@ function DisplayColleges(map){
           title: properties.coll_nom1 + " " + properties.coll_nom2,
           zIndex: properties.coll_type === "CLG P" ? 1 : 2
         });
+        markers.push(marker);
+
         google.maps.event.addListener(marker ,'click', function() {
             if (infoWindowActive != null) infoWindowActive.close();
             infoWindow.open(map, marker);
             infoWindowActive = infoWindow;
         });
       });
+      var options = {
+          imagePath: 'img/m'
+      };
+      var markerCluster = new MarkerClusterer(map, markers, options);
   });
 }
