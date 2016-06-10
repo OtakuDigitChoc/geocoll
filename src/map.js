@@ -102,7 +102,8 @@ function SearchAdress(map){
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
       var layerContaintPin = PinInPolygone(map,place.geometry.location);
-      console.log(layerContaintPin['H'].NOM_SECTEUR);
+      map.data.overrideStyle(layerContaintPin, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
+      console.log(layerContaintPin);
 
       var address = '';
       if (place.address_components) {
