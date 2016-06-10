@@ -1,5 +1,6 @@
 var map;
 var polySecteurs;
+
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 43.710173, lng: 7.261953199999994},
@@ -42,7 +43,8 @@ function DisplaySectors(map){
   map.data.addGeoJson(secteurs,'1');
   map.data.setStyle(function(feature) {
     return {
-      fillColor: false,
+      fillColor: 'blue',
+      fillOpacity : 0.1,
       strokeColor : 'blue',
       clickable : false,
       strokeWeight: 1
@@ -61,6 +63,12 @@ function DisplaySectors(map){
 }
 
 function SearchAdress(map){
+  var geocoder = new google.maps.Geocoder();
+  var directionsService = new google.maps.DirectionsService;
+  var directionsDisplay = new google.maps.DirectionsRenderer;
+  var travel_mode = google.maps.TravelMode.WALKING;
+  directionsDisplay.setMap(map);
+  var place_id = null;
   var options = {
     componentRestrictions: {country: 'fr'}
   };
@@ -73,6 +81,7 @@ function SearchAdress(map){
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(types);
 
     var autocomplete = new google.maps.places.Autocomplete(input, options);
+    console.log(input);
     autocomplete.bindTo('bounds', map);
 
     var infowindow = new google.maps.InfoWindow();
@@ -84,6 +93,7 @@ function SearchAdress(map){
     autocomplete.addListener('place_changed', function() {
       infowindow.close();
       marker.setVisible(false);
+      console.log(autocomplete);
       var place = autocomplete.getPlace();
       if (!place.geometry) {
         window.alert("Impossible de trouver votre adresse");
@@ -106,9 +116,34 @@ function SearchAdress(map){
       }));
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
+      console.log(place.place_id);
       var layerContaintPin = PinInPolygone(map,place.geometry.location);
+      map.data.revertStyle();
       map.data.overrideStyle(layerContaintPin, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
       console.log(layerContaintPin);
+      var adresse_dest = layerContaintPin['H'].ADRESSE +", alpes maritimes";
+      geocoder.geocode({'address': adresse_dest}, function(results, status) {
+      if (status === google.maps.GeocoderStatus.OK) {
+        place_id = results[0].place_id;
+        console.log(place_id);
+          directionsService.route({
+            origin: {'placeId': place.place_id},
+            destination: {'placeId': place_id},
+            travelMode: travel_mode
+          }, function(response, status) {
+            console.log(status);
+            console.log(response);
+          if (status === google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+          }
+          else {
+            window.alert('Directions request failed due to ' + status);
+          }
+          });
+        } else {
+          alert('Geocode was not successful for the following reason: ' + status);
+        }
+      });
 
       var address = '';
       if (place.address_components) {
@@ -118,6 +153,7 @@ function SearchAdress(map){
           (place.address_components[2] && place.address_components[2].short_name || '')
         ].join(' ');
       }
+
 
       infowindow.setContent('<div><strong>COLLEGE ' + layerContaintPin['H'].NOM_SECTEUR + '</strong><br>' + address);
       infowindow.open(map, marker);
