@@ -44,6 +44,7 @@ function DisplaySectors(map){
     return {
       fillColor: 'blue',
       strokeColor : 'blue',
+      clickable : false,
       strokeWeight: 1
     };
   });
@@ -124,16 +125,36 @@ function SearchAdress(map){
 }
 
 function DisplayColleges(map){
+  var pinBlue = {
+    url: 'img/university-blue.png',
+    // This marker is 20 pixels wide by 32 pixels high.
+    size: new google.maps.Size(32, 37),
+    // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(0, 32)
+  };
+  var pinRed = {
+    url: 'img/university-red.png',
+    // This marker is 20 pixels wide by 32 pixels high.
+    size: new google.maps.Size(32, 37),
+    // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(0, 32)
+  };
   $.ajax('data/colleges.kml').done(function(geojsonColleges) {
       colleges = toGeoJSON.kml(geojsonColleges);
       console.log(colleges);
-      var layerColleges = map.data.addGeoJson(colleges);
-
-      map.data.forEach(function(layerCollege){
-        console.log(layerCollege);
-        if ( layerCollege['H'].coll_type === "CLG P") {
-          map.data.overrideStyle(layerCollege, { icon : 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'})
-        }
+      colleges.features.forEach(function(college){
+        console.log(college.geometry.coordinates);
+        var marker = new google.maps.Marker({
+          position: {lat : college.geometry.coordinates[1], lng :college.geometry.coordinates[0]},
+          map: map,
+          icon: college.properties.coll_type === "CLG P" ? pinRed : pinBlue,
+          title: college.properties.coll_nom1 + " " + college.properties.coll_nom2,
+          zIndex: college.properties.coll_type === "CLG P" ? 1 : 2
+        });
       });
   });
 }
