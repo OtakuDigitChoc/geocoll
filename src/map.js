@@ -118,3 +118,10 @@ function SearchAdress(map){
       infowindow.open(map, marker);
     });
 }
+
+function DisplayColleges(map){
+  $.ajax('data/colleges.kml').done(function(geojsonColleges) {
+        colleges = toGeoJSON.kml(geojsonColleges);
+        console.log(colleges);
+      });
+}
