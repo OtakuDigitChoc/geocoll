@@ -7,35 +7,39 @@ function initMap() {
   });
   DisplaySectors(map);
   SearchAdress(map);
+  DisplayColleges(map);
 }
 
 function PinInPolygone(map, latLang){
   var layerContaintPin;
+  var test = map.data.getFeatureById(4);
   map.data.forEach(function(feature){
     var geo =  feature.getGeometry();
     var paths;
+    var type = geo.getType();
+    if (type === "MultiPolygon" || type === "Polygon"  ){
+      if (type === "MultiPolygon" ){
+        var multiPolygon= Array();
+        geo["j"][0]["j"].forEach(function(polygone){
+           multiPolygon.push(polygone["j"]);
+        });
+        paths = multiPolygon;
+      }
+      else {
+        paths = geo["j"][0]["j"];
+      }
 
-    if (geo.getType() === "MultiPolygon" ){
-      var multiPolygon= Array();
-      geo["j"][0]["j"].forEach(function(polygone){
-         multiPolygon.push(polygone["j"]);
-      });
-      paths = multiPolygon;
-    }
-    else {
-      paths = geo["j"][0]["j"];
-    }
-
-    var secteur = new google.maps.Polygon({paths:paths});
-    if ( google.maps.geometry.poly.containsLocation(latLang,secteur)){
-      layerContaintPin = feature;
+      var secteur = new google.maps.Polygon({paths:paths});
+      if ( google.maps.geometry.poly.containsLocation(latLang,secteur)){
+        layerContaintPin = feature;
+      }
     }
   });
   return layerContaintPin;
 }
 
 function DisplaySectors(map){
-  var test = map.data.addGeoJson(secteurs);
+  map.data.addGeoJson(secteurs,'1');
   map.data.setStyle(function(feature) {
     return {
       fillColor: 'blue',
@@ -121,7 +125,15 @@ function SearchAdress(map){
 
 function DisplayColleges(map){
   $.ajax('data/colleges.kml').done(function(geojsonColleges) {
-        colleges = toGeoJSON.kml(geojsonColleges);
-        console.log(colleges);
+      colleges = toGeoJSON.kml(geojsonColleges);
+      console.log(colleges);
+      var layerColleges = map.data.addGeoJson(colleges);
+
+      map.data.forEach(function(layerCollege){
+        console.log(layerCollege);
+        if ( layerCollege['H'].coll_type === "CLG P") {
+          map.data.overrideStyle(layerCollege, { icon : 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'})
+        }
       });
+  });
 }
