@@ -144,16 +144,30 @@ function DisplayColleges(map){
     anchor: new google.maps.Point(0, 32)
   };
   $.ajax('data/colleges.kml').done(function(geojsonColleges) {
-      colleges = toGeoJSON.kml(geojsonColleges);
+      var infoWindowActive = null;
+      var colleges = toGeoJSON.kml(geojsonColleges);
       console.log(colleges);
       colleges.features.forEach(function(college){
-        console.log(college.geometry.coordinates);
+        var properties = college.properties;
+        var geometry = college.geometry;
+        console.log(properties);
+        var contentInfo = '<strong>'+properties.coll_nom1+'  '+ properties.coll_nom2+'</strong><br>';
+            contentInfo += properties.coll_adr +' '+properties.coll_com+'<br>';
+            contentInfo += properties.coll_tel;
+        var infoWindow = new google.maps.InfoWindow({
+          content: contentInfo
+        });
         var marker = new google.maps.Marker({
-          position: {lat : college.geometry.coordinates[1], lng :college.geometry.coordinates[0]},
+          position: {lat : geometry.coordinates[1], lng :geometry.coordinates[0]},
           map: map,
-          icon: college.properties.coll_type === "CLG P" ? pinRed : pinBlue,
-          title: college.properties.coll_nom1 + " " + college.properties.coll_nom2,
-          zIndex: college.properties.coll_type === "CLG P" ? 1 : 2
+          icon: properties.coll_type === "CLG P" ? pinRed : pinBlue,
+          title: properties.coll_nom1 + " " + properties.coll_nom2,
+          zIndex: properties.coll_type === "CLG P" ? 1 : 2
+        });
+        google.maps.event.addListener(marker ,'click', function() {
+            if (infoWindowActive != null) infoWindowActive.close();
+            infoWindow.open(map, marker);
+            infoWindowActive = infoWindow;
         });
       });
   });
