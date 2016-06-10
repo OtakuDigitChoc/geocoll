@@ -1,0 +1,5753 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>colleges</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061133Z<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LA FONTONNE<br>
+<b>coll_adr:</b> AVENUE DES FRERES GARBERO<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06600
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061133Z</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LA FONTONNE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE DES FRERES GARBERO</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06600</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 33 42 65</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 74 46 16</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061133z@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>476</value>
+				</Data>
+				<Data name='localite'>
+					<value>ANTIBES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.124486,43.599775</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060842H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PIERRE BERTONE<br>
+<b>coll_adr:</b> 653 ROUTE DE GRASSE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06600
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060842H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PIERRE BERTONE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>653 ROUTE DE GRASSE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06600</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 91 38 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 91 38 01</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060842h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>672</value>
+				</Data>
+				<Data name='localite'>
+					<value>ANTIBES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.098277,43.592723</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060076A<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ROUSTAN<br>
+<b>coll_adr:</b> AVENUE DES FRERES ROUSTAN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06600
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060076A</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ROUSTAN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE DES FRERES ROUSTAN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06600</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 67 61 02</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 93 11 03</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060076a@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>387</value>
+				</Data>
+				<Data name='localite'>
+					<value>ANTIBES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.121528,43.576312</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060083H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> FERSEN<br>
+<b>coll_adr:</b> 15 RUE DE FERSEN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 519<br>
+<b>coll_cp:</b> 06631
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060083H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>FERSEN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>15 RUE DE FERSEN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>519</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06631</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 90 68 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 90 68 39</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060083h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>468</value>
+				</Data>
+				<Data name='localite'>
+					<value>ANTIBES CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.124633,43.580144</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061209G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN COCTEAU<br>
+<b>coll_adr:</b> 1R CHARLES II COMTE D PROVENCE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06310
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061209G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN COCTEAU</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1R CHARLES II COMTE D PROVENCE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06310</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>BEAULIEU-SUR-MER</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 01 11 12</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 01 29 63</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061209g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>577</value>
+				</Data>
+				<Data name='localite'>
+					<value>BEAULIEU SUR MER</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.327894,43.703205</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061278G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> BELLEVUE<br>
+<b>coll_adr:</b> BRETELLE DU CENTRE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06240
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061278G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>BELLEVUE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BRETELLE DU CENTRE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06240</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>BEAUSOLEIL</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 41 26 26</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 41 26 24</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061278g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>483</value>
+				</Data>
+				<Data name='localite'>
+					<value>BEAUSOLEIL</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.417203,43.74097</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061670H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> L'EGANAUDE<br>
+<b>coll_adr:</b> 3140 RTE DES DOLINES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 119<br>
+<b>coll_cp:</b> 06902
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061670H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>L'EGANAUDE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>3140 RTE DES DOLINES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>119</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06902</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>BIOT</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 97 23 42 20</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 97 23 42 22</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061670h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>749</value>
+				</Data>
+				<Data name='localite'>
+					<value>SOPHIA ANTIPOLIS CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.056329,43.62355</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060008B<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> L'EAU VIVE<br>
+<b>coll_adr:</b> 224 RUE VIRGILE BAREL<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06540
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060008B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>L'EAU VIVE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>224 RUE VIRGILE BAREL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06540</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>BREIL-SUR-ROYA</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 04 99 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 04 99 01</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060008b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>151</value>
+				</Data>
+				<Data name='localite'>
+					<value>BREIL SUR ROYA</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.514959,43.940569</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061737F<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ANDRE MALRAUX<br>
+<b>coll_adr:</b> 14 CHEMIN DU VALLON DES VAUX<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06800
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061737F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ANDRE MALRAUX</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>14 CHEMIN DU VALLON DES VAUX</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06800</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CAGNES-SUR-MER</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 19 37 50</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 19 37 55</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061737f@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>552</value>
+				</Data>
+				<Data name='localite'>
+					<value>CAGNES-SUR-MER</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.161984,43.673189</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061280J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JULES VERNE<br>
+<b>coll_adr:</b> RUE JULES VERNE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06800
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061280J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JULES VERNE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>RUE JULES VERNE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06800</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CAGNES-SUR-MER</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 02 44 60</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 02 44 61</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061280j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>604</value>
+				</Data>
+				<Data name='localite'>
+					<value>CAGNES SUR MER</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.146803,43.660241</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060911H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES BREGUIERES<br>
+<b>coll_adr:</b> 1 AVENUE SAINT EXUPERY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06800
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060911H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES BREGUIERES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1 AVENUE SAINT EXUPERY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06800</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CAGNES-SUR-MER</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 02 61 70</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 02 61 71</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060911h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>626</value>
+				</Data>
+				<Data name='localite'>
+					<value>CAGNES SUR MER</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.15892,43.661979</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061342B<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ANDRE CAPRON<br>
+<b>coll_adr:</b> 6 AVENUE DE MADRID<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06400
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061342B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ANDRE CAPRON</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>6 AVENUE DE MADRID</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06400</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 18 83 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 94 26 10</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061342b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>385</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.034695,43.547143</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061279H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES VALLERGUES<br>
+<b>coll_adr:</b> 71 AV DE LATTRE DE TASSIGNY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06400
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061279H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES VALLERGUES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>71 AV DE LATTRE DE TASSIGNY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06400</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 06 63 33</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 06 63 34</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061279h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>529</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.010253,43.558793</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061174U<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> GERARD PHILIPE<br>
+<b>coll_adr:</b> 1 AVENUE ALFRED DE VIGNY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06150
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061174U</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>GERARD PHILIPE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1 AVENUE ALFRED DE VIGNY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06150</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 90 50 50</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 90 50 55</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061174u@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>667</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES LA BOCCA</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.963078,43.569867</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060799L<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES MURIERS<br>
+<b>coll_adr:</b> 5 RUE RENE DUNAN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06150
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060799L</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES MURIERS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>5 RUE RENE DUNAN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06150</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 47 28 95</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 48 11 75</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060799l@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>815</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES LA BOCCA</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.96725,43.55214</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061130W<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PAUL LANGEVIN<br>
+<b>coll_adr:</b> 11 RUE COLLE BELLE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06510
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061130W</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PAUL LANGEVIN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>11 RUE COLLE BELLE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06510</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CARROS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 08 20 70</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 08 20 71</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061130w@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>697</value>
+				</Data>
+				<Data name='localite'>
+					<value>CARROS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.198058,43.768758</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061668F<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES JASMINS-STE MARGUERITE<br>
+<b>coll_adr:</b> 1 CHEMIN STE MARGUERITE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06130
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061668F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES JASMINS-STE MARGUERITE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1 CHEMIN STE MARGUERITE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06130</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>GRASSE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 70 97 80</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 70 97 81</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061668f@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>562</value>
+				</Data>
+				<Data name='localite'>
+					<value>GRASSE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.94841,43.643757</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061240R<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> CARNOT<br>
+<b>coll_adr:</b> BOULEVARD CARNOT<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 28829<br>
+<b>coll_cp:</b> 06131
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061240R</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>CARNOT</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BOULEVARD CARNOT</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>28829</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06131</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>GRASSE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 36 02 62</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 36 88 32</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061240r@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>414</value>
+				</Data>
+				<Data name='localite'>
+					<value>GRASSE CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.922135,43.656494</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061826C<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> FRANCOIS RABELAIS<br>
+<b>coll_adr:</b> CHEMIN DU CASTEL<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06440
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061826C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>FRANCOIS RABELAIS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>CHEMIN DU CASTEL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06440</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>L' ESCARENE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 79 66 77</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 79 68 28</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061826c@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>424</value>
+				</Data>
+				<Data name='localite'>
+					<value>L ESCARENE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.352109,43.840907</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061376N<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> YVES KLEIN<br>
+<b>coll_adr:</b> BD ALEX ROUBERT<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 51<br>
+<b>coll_cp:</b> 06480
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061376N</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>YVES KLEIN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BD ALEX ROUBERT</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>51</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06480</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>LA COLLE-SUR-LOUP</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 32 32 70</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 32 32 71</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061376n@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>726</value>
+				</Data>
+				<Data name='localite'>
+					<value>LA COLLE SUR LOUP</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.102892,43.684581</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060910G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LA BOURGADE<br>
+<b>coll_adr:</b> 17 ALLEE DES LUCIOLES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 00
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060910G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LA BOURGADE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>17 ALLEE DES LUCIOLES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>00</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>LA TRINITE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 54 30 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 97 00 12 38</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060910g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>479</value>
+				</Data>
+				<Data name='localite'>
+					<value>LA TRINITE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.312109,43.736524</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061723R<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> EMILE ROUX<br>
+<b>coll_adr:</b> CHEMIN DES PLAINES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06110
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061723R</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>EMILE ROUX</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>CHEMIN DES PLAINES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06110</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>LE CANNET</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 69 07 14</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 69 07 17</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061723r@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>474</value>
+				</Data>
+				<Data name='localite'>
+					<value>LE CANNET</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.021539,43.572936</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061239P<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PIERRE BONNARD<br>
+<b>coll_adr:</b> AVENUE GEORGES POMPIDOU<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06110
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061239P</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PIERRE BONNARD</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE GEORGES POMPIDOU</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06110</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>LE CANNET</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 18 62 40</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 18 62 41</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061239p@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>661</value>
+				</Data>
+				<Data name='localite'>
+					<value>LE CANNET</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.985066,43.569095</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061853G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LE PRE DES ROURES<br>
+<b>coll_adr:</b> 7 ROUTE DE NICE<br>
+<b>coll_adr2:</b> QUARTIER SAN PEYRE<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06650
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061853G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LE PRE DES ROURES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>7 ROUTE DE NICE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>QUARTIER SAN PEYRE</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06650</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>LE ROURET</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 60 30 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 60 30 31</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061853g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>616</value>
+				</Data>
+				<Data name='localite'>
+					<value>LE ROURET</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.994611,43.674297</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061175V<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ALBERT CAMUS<br>
+<b>coll_adr:</b> AVENUE ROBERT SCHUMAN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06210
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061175V</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ALBERT CAMUS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE ROBERT SCHUMAN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06210</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MANDELIEU-LA-NAPOULE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 93 60 60</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 93 60 61</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061175v@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>590</value>
+				</Data>
+				<Data name='localite'>
+					<value>MANDELIEU</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.920961,43.539041</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061924J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES MIMOSAS<br>
+<b>coll_adr:</b> 1216 AVENUE GENERAL GARBAY<br>
+<b>coll_adr2:</b> DOMAINE DE LA TOUR<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06210
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061924J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES MIMOSAS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1216 AVENUE GENERAL GARBAY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>DOMAINE DE LA TOUR</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06210</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MANDELIEU-LA-NAPOULE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 97 47 20</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 49 39 78</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061924j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>803</value>
+				</Data>
+				<Data name='localite'>
+					<value>MANDELIEU LA NAPOULE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.939413,43.556578</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061238N<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ANDRE MAUROIS<br>
+<b>coll_adr:</b> 8 RUE MAGENTA<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06500
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061238N</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ANDRE MAUROIS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>8 RUE MAGENTA</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06500</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MENTON</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 35 78 86</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 41 14 25</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061238n@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>578</value>
+				</Data>
+				<Data name='localite'>
+					<value>MENTON</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.50295,43.776658</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061824A<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> GUILLAUME VENTO<br>
+<b>coll_adr:</b> 400 COURS DU CENTENAIRE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 111<br>
+<b>coll_cp:</b> 06503
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061824A</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>GUILLAUME VENTO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>400 COURS DU CENTENAIRE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>111</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06503</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MENTON</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 10 30 03</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 10 10 66</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061824a@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>781</value>
+				</Data>
+				<Data name='localite'>
+					<value>MENTON CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.494057,43.772608</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061795U<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LA CHENAIE<br>
+<b>coll_adr:</b> <br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 81<br>
+<b>coll_cp:</b> 06371
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061795U</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LA CHENAIE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value></value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>81</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06371</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MOUANS-SARTOUX</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 75 13 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 75 13 10</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061795u@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>665</value>
+				</Data>
+				<Data name='localite'>
+					<value>MOUANS SARTOUX CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.970564,43.615322</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061068D<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES CAMPELIERES<br>
+<b>coll_adr:</b> 121 CHEMIN DES CAMPELIERES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06250
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061068D</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES CAMPELIERES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>121 CHEMIN DES CAMPELIERES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06250</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MOUGINS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 18 64 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 18 64 11</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061068d@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>897</value>
+				</Data>
+				<Data name='localite'>
+					<value>MOUGINS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.000268,43.580343</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060045S<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ANTOINE RISSO<br>
+<b>coll_adr:</b> 8 BOULEVARD PIERRE SOLA<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060045S</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ANTOINE RISSO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>8 BOULEVARD PIERRE SOLA</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 00 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 00 00 40</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060045s@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>474</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.28491,43.707335</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060840F<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> FREDERIC MISTRAL<br>
+<b>coll_adr:</b> 59 AVENUE YVONNE VITTONE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06200
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060840F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>FREDERIC MISTRAL</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>59 AVENUE YVONNE VITTONE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06200</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 29 39 80</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 29 39 85</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060840f@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>763</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.212318,43.673725</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060084J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN GIONO<br>
+<b>coll_adr:</b> 2 RUE HUMBERT RICOLFI<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060084J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN GIONO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>2 RUE HUMBERT RICOLFI</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 20 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 00 20 99</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060084j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>687</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.291414,43.712302</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061003H<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN ROSTAND<br>
+<b>coll_adr:</b> 98 BOULEVARD DE LA MADELEINE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061003H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN ROSTAND</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>98 BOULEVARD DE LA MADELEINE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 15 80 20</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 15 80 28</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061003h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>517</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.240566,43.698532</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061129V<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JULES ROMAINS<br>
+<b>coll_adr:</b> 206 ROUTE DE GRENOBLE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06200
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061129V</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JULES ROMAINS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>206 ROUTE DE GRENOBLE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06200</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 72 41 20</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 72 41 21</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061129v@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>548</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.202396,43.678097</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061694J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> L'ARCHET<br>
+<b>coll_adr:</b> BD IMPERATRICE EUGENIE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06200
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061694J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>L'ARCHET</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BD IMPERATRICE EUGENIE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06200</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 97 07 80 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 97 07 80 01</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061694j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>721</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.230075,43.691269</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061131X<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> MAURICE JAUBERT<br>
+<b>coll_adr:</b> COURS ALBERT CAMUS<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061131X</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>MAURICE JAUBERT</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>COURS ALBERT CAMUS</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 27 68 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 27 68 12</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061131x@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>576</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.300185,43.737581</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061001F<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> NUCERA LOUIS<br>
+<b>coll_adr:</b> 2 PONT RENE COTY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061001F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>NUCERA LOUIS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>2 PONT RENE COTY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 17 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 00 17 17</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061001f@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>557</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.289352,43.723933</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061277F<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PORT LYMPIA<br>
+<b>coll_adr:</b> 31 BOULEVARD STALINGRAD<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061277F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PORT LYMPIA</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>31 BOULEVARD STALINGRAD</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 74 44</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 00 74 40</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061277f@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>742</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.287913,43.697478</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060086L<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ROLAND GARROS<br>
+<b>coll_adr:</b> 10 BOULEVARD DE CIMIEZ<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060086L</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ROLAND GARROS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>10 BOULEVARD DE CIMIEZ</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 80 02 03</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 47 73 90</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060086l@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>720</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.270234,43.707608</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060032C<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SEGURANE<br>
+<b>coll_adr:</b> 3 RUE SINCAIRE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060032C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SEGURANE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>3 RUE SINCAIRE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 44 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 00 44 99</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060032c@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>559</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.280584,43.699789</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060085K<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> VERNIER<br>
+<b>coll_adr:</b> 33 RUE VERNIER<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060085K</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>VERNIER</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>33 RUE VERNIER</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 14 67 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 14 67 93</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060085k@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>443</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.258915,43.706859</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060838D<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> VICTOR DURUY<br>
+<b>coll_adr:</b> 36 AVENUE DE L ARBRE INFERIEUR<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060838D</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>VICTOR DURUY</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>36 AVENUE DE L ARBRE INFERIEUR</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 85 38 05</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 47 78 50</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060838d@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>490</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.279682,43.709764</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061339Y<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PARC IMPERIAL<br>
+<b>coll_adr:</b> 2 AVENUE PAUL ARENE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06050
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061339Y</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PARC IMPERIAL</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>2 AVENUE PAUL ARENE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06050</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 15 24 60</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 15 24 61</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061339y@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>849</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.251822,43.706464</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060048V<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> RAOUL DUFY<br>
+<b>coll_adr:</b> 30 AVENUE RAOUL DUFY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 3148<br>
+<b>coll_cp:</b> 06203
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060048V</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>RAOUL DUFY</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>30 AVENUE RAOUL DUFY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>3148</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06203</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 29 20 40</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 29 20 48</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060048v@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>1001</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.21699,43.680645</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061002G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ALPHONSE DAUDET<br>
+<b>coll_adr:</b> 176 RUE DE FRANCE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06050
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061002G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ALPHONSE DAUDET</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>176 RUE DE FRANCE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06050</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 15 55 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 15 55 99</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061002g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>511</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 1</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.246075,43.692285</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061006L<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> HENRI MATISSE<br>
+<b>coll_adr:</b> AVENUE REINE VICTORIA<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06050
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061006L</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>HENRI MATISSE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE REINE VICTORIA</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06050</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 81 26 35</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 81 23 33</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061006l@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>984</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 1</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.27194,43.723367</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060841G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN-HENRI FABRE<br>
+<b>coll_adr:</b> BOULEVARD HENRI SAPPIA<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 2109<br>
+<b>coll_cp:</b> 06102
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060841G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN-HENRI FABRE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BOULEVARD HENRI SAPPIA</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>2109</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06102</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 07 84 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 07 84 40</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060841g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>738</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 2</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.251563,43.731172</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060050X<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> VALERI<br>
+<b>coll_adr:</b> 128 AVENUE ST-LAMBERT<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 2149<br>
+<b>coll_cp:</b> 06103
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060050X</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>VALERI</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>128 AVENUE ST-LAMBERT</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>2149</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06103</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 09 39 49</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 09 39 45</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060050x@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>872</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 2</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.262287,43.71653</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061796V<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PAUL ARENE<br>
+<b>coll_adr:</b> 23 CHEMIN DU STADE<br>
+<b>coll_adr2:</b> QUARTIER LE SUYE<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06530
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061796V</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PAUL ARENE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>23 CHEMIN DU STADE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>QUARTIER LE SUYE</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06530</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>PEYMEINADE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 66 62 50</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 66 62 53</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061796v@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>639</value>
+				</Data>
+				<Data name='localite'>
+					<value>PEYMEINADE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.87101,43.637503</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061237M<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LA VESUBIE-JEAN SALINES<br>
+<b>coll_adr:</b> 8 PROMENADE JEAN LAURENTI<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06450
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061237M</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LA VESUBIE-JEAN SALINES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>8 PROMENADE JEAN LAURENTI</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06450</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ROQUEBILLIERE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 03 40 07</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 03 45 04</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061237m@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>253</value>
+				</Data>
+				<Data name='localite'>
+					<value>ROQUEBILLIERE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.309439,44.012236</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0062056C<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> CESAR<br>
+<b>coll_adr:</b> 1600 ROUTE DE VALBONNE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06330
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0062056C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>CESAR</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1600 ROUTE DE VALBONNE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06330</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ROQUEFORT-LES-PINS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 70 01 12</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value></value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0062056C@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>365</value>
+				</Data>
+				<Data name='localite'>
+					<value>ROQUEFORT LES PINS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.037706,43.663346</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060063L<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN FRANCO<br>
+<b>coll_adr:</b> <br>
+<b>coll_adr2:</b> VILLAGE<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06660
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060063L</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN FRANCO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value></value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>VILLAGE</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06660</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-ETIENNE-DE-TINEE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 03 62 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 03 62 19</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060063l@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>218</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST ETIENNE DE TINEE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.922692,44.257363</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061666D<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LES BAOUS<br>
+<b>coll_adr:</b> ROUTE DE GATTIERES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06640
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061666D</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES BAOUS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>ROUTE DE GATTIERES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06640</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-JEANNET</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 24 51 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 24 51 39</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061666d@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>880</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST JEANNET</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.152866,43.745816</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061134A<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JOSEPH PAGNOL<br>
+<b>coll_adr:</b> 1643 ESPLANADE EDMOND JOUHAUD<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06700
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061134A</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JOSEPH PAGNOL</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1643 ESPLANADE EDMOND JOUHAUD</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06700</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-LAURENT-DU-VAR</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 19 46 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 19 46 99</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061134a@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>730</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST LAURENT DU VAR</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.188095,43.682469</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061738G<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SAINT EXUPERY<br>
+<b>coll_adr:</b> 116 AVENUE PIERRE AMADIEU<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06700
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061738G</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT EXUPERY</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>116 AVENUE PIERRE AMADIEU</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06700</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-LAURENT-DU-VAR</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 07 71 63</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 14 03 50</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061738g@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>555</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST LAURENT DU VAR</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.185682,43.666109</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061400P<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LUDOVIC BREA<br>
+<b>coll_adr:</b> ROUTE DU COLLEGE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06670
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061400P</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LUDOVIC BREA</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>ROUTE DU COLLEGE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06670</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-MARTIN-DU-VAR</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 08 29 70</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 08 29 71</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061400p@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>485</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST MARTIN DU VAR</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.190449,43.819289</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060066P<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SAINT-BLAISE<br>
+<b>coll_adr:</b> 2 BOULEVARD SAINT BLAISE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06420
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060066P</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT-BLAISE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>2 BOULEVARD SAINT BLAISE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06420</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-SAUVEUR-SUR-TINEE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 02 20 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 02 20 39</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060066p@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>216</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST SAUVEUR SUR TINEE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.105245,44.085085</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060067R<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN MEDECIN<br>
+<b>coll_adr:</b> BOULEVARD JULES FERRY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06380
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060067R</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN MEDECIN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>BOULEVARD JULES FERRY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06380</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SOSPEL</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 04 36 60</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 04 36 65</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060067r@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>230</value>
+				</Data>
+				<Data name='localite'>
+					<value>SOSPEL</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.448822,43.879879</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060068S<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> RENE CASSIN<br>
+<b>coll_adr:</b> 528 BD LEON SAUVAN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06690
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060068S</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>RENE CASSIN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>528 BD LEON SAUVAN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06690</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>TOURRETTE-LEVENS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 91 01 46</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 79 44 85</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060068s@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>748</value>
+				</Data>
+				<Data name='localite'>
+					<value>TOURRETTE LEVENS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.27636,43.787417</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061925K<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> NIKI DE SAINT PHALLE<br>
+<b>coll_adr:</b> <br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 299<br>
+<b>coll_cp:</b> 06905
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061925K</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>NIKI DE SAINT PHALLE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value></value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>299</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06905</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VALBONNE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 91 51 30</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 65 67 38</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061925k@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>816</value>
+				</Data>
+				<Data name='localite'>
+					<value>SOPHIA ANTIPOLIS CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.045483,43.648226</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061211J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> PABLO PICASSO<br>
+<b>coll_adr:</b> AVENUE DE L HOPITAL<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06220
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061211J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>PABLO PICASSO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE DE L HOPITAL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06220</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VALLAURIS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 64 44 45</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 64 63 13</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061211j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>667</value>
+				</Data>
+				<Data name='localite'>
+					<value>VALLAURIS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.056742,43.580109</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061135B<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> LA SINE<br>
+<b>coll_adr:</b> 214 CHEMIN DE LA SINE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061135B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LA SINE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>214 CHEMIN DE LA SINE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06140</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VENCE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 58 45 45</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 24 63 34</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061135b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>909</value>
+				</Data>
+				<Data name='localite'>
+					<value>VENCE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.082809,43.721169</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061825B<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> ROMEE DE VILLENEUVE<br>
+<b>coll_adr:</b> ALLEE RENE CASSIN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06270
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061825B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ROMEE DE VILLENEUVE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>ALLEE RENE CASSIN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06270</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VILLENEUVE-LOUBET</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 13 17 12</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 13 42 42</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061825b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>568</value>
+				</Data>
+				<Data name='localite'>
+					<value>VILLENEUVE LOUBET</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.128371,43.654155</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060019N<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> VALLEES DU PAILLON - R. CARLES<br>
+<b>coll_adr:</b> AVENUE CELESCHI<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 97<br>
+<b>coll_cp:</b> 06392
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060019N</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>VALLEES DU PAILLON - R. CARLES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE CELESCHI</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>97</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06392</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CONTES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 79 18 18</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 79 16 10</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060019n@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>657</value>
+				</Data>
+				<Data name='localite'>
+					<value>CONTES CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.31286,43.809625</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060021R<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SAINT HILAIRE<br>
+<b>coll_adr:</b> 26 RUE ANCIEN PALAIS DE JUSTICE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06130
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060021R</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT HILAIRE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>26 RUE ANCIEN PALAIS DE JUSTICE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06130</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>GRASSE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 36 36 65</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 36 39 46</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060021r@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>506</value>
+				</Data>
+				<Data name='localite'>
+					<value>GRASSE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.916894,43.65603</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061244V<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> CANTEPERDRIX<br>
+<b>coll_adr:</b> AV DE LA VICTOIRE DU 8 MAI 1945<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 77709<br>
+<b>coll_cp:</b> 06131
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061244V</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>CANTEPERDRIX</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AV DE LA VICTOIRE DU 8 MAI 1945</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>77709</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06131</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>GRASSE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 70 14 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 70 39 25</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061244v@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>746</value>
+				</Data>
+				<Data name='localite'>
+					<value>GRASSE CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.910528,43.637619</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060061J<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> AUGUSTE BLANQUI<br>
+<b>coll_adr:</b> PROMENADE JEAN BAILET<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 15<br>
+<b>coll_cp:</b> 06260
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060061J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>AUGUSTE BLANQUI</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>PROMENADE JEAN BAILET</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>15</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06260</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>PUGET-THENIERS</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 05 20 20</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 05 20 21</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060061j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>253</value>
+				</Data>
+				<Data name='localite'>
+					<value>PUGET THENIERS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.89384,43.957202</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061986B<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SIMON WIESENTHAL<br>
+<b>coll_adr:</b> CHEMIN DES BLAQUEIRETTES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06460
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061986B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SIMON WIESENTHAL</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>CHEMIN DES BLAQUEIRETTES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06460</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>SAINT-VALLIER-DE-THIEY</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 97 05 09 40</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 97 05 09 41</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061986b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>592</value>
+				</Data>
+				<Data name='localite'>
+					<value>ST VALLIER DE THIEY</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.85386,43.697487</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060072W<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> JEAN-BAPTISTE RUSCA<br>
+<b>coll_adr:</b> LE PETIT BOIS<br>
+<b>coll_adr2:</b> ST DALMAS DE TENDE<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06430
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060072W</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>JEAN-BAPTISTE RUSCA</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>LE PETIT BOIS</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>ST DALMAS DE TENDE</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06430</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>TENDE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 04 62 34</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 04 72 99</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060072w@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>140</value>
+				</Data>
+				<Data name='localite'>
+					<value>TENDE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.587078,44.054625</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060823M<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SAINT PHILIPPE<br>
+<b>coll_adr:</b> 4 RUE DE L ORATOIRE<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06160
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060823M</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT PHILIPPE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>4 RUE DE L ORATOIRE</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06160</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 97 21 70 50</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 93 11 60</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060823m@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>0</value>
+				</Data>
+				<Data name='localite'>
+					<value>JUAN LES PINS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.116787,43.567201</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061119J<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> NOTRE-DAME DE LA TRAMONTANE<br>
+<b>coll_adr:</b> 1030 CHEMIN DE VALLAURIS<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06160
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061119J</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>NOTRE-DAME DE LA TRAMONTANE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1030 CHEMIN DE VALLAURIS</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06160</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 93 35 60</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 93 35 61</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061119j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>573</value>
+				</Data>
+				<Data name='localite'>
+					<value>JUAN LES PINS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.092536,43.576562</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061456A<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> MONT SAINT JEAN<br>
+<b>coll_adr:</b> AVENUE DU CHATAIGNIER<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06600
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061456A</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>MONT SAINT JEAN</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVENUE DU CHATAIGNIER</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06600</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 97 21 29 90</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 33 65 12</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060668u@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>342</value>
+				</Data>
+				<Data name='localite'>
+					<value>ANTIBES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.113037,43.580906</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060720A<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SAINTE MARIE<br>
+<b>coll_adr:</b> 4 AVENUE WINDSOR<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06400
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060720A</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINTE MARIE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>4 AVENUE WINDSOR</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06400</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 18 85 55</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 18 85 56</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060670w@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>626</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.030729,43.551414</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061457B<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> STANISLAS<br>
+<b>coll_adr:</b> 1 PLACE STANISLAS<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 67<br>
+<b>coll_cp:</b> 06403
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061457B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>STANISLAS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1 PLACE STANISLAS</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>67</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06403</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>CANNES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 06 48 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 06 48 01</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060673z@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>929</value>
+				</Data>
+				<Data name='localite'>
+					<value>CANNES CEDEX</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.008307,43.553583</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061459D<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> FENELON<br>
+<b>coll_adr:</b> 7 AV.YVES EMMANUEL BAUDOIN<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06130
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061459D</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>FENELON</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>7 AV.YVES EMMANUEL BAUDOIN</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06130</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>GRASSE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 40 60 59</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 40 08 80</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060674a@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>869</value>
+				</Data>
+				<Data name='localite'>
+					<value>GRASSE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>6.92078,43.658981</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060681H<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SAINT JOSEPH<br>
+<b>coll_adr:</b> 14 RUE BARLA<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060681H</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT JOSEPH</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>14 RUE BARLA</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 00 47 47</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 89 15 59</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060774j@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>159</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.282711,43.701907</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060745C<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> NAZARETH<br>
+<b>coll_adr:</b> 9 AVENUE DE PESSICART<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06100
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060745C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>NAZARETH</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>9 AVENUE DE PESSICART</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06100</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 97 29 50</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 96 23 90</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060745c@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>375</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.254779,43.709476</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060753L<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SAINTE THERESE<br>
+<b>coll_adr:</b> 4 AVE JOSEPH REVELLI<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060753L</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINTE THERESE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>4 AVE JOSEPH REVELLI</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 86 57 86</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 97 86 07</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060753l@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>233</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.244133,43.693766</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061127T<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SAINT BARTHELEMY<br>
+<b>coll_adr:</b> 25 AVENUE SAINT BARTHELEMY<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06100
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061127T</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SAINT BARTHELEMY</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>25 AVENUE SAINT BARTHELEMY</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06100</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 07 77 80</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 07 77 89</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061127t@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>414</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.256099,43.718224</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061461F<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> STANISLAS<br>
+<b>coll_adr:</b> 25 AVENUE BIECKERT<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 1425<br>
+<b>coll_cp:</b> 06008
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061461F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>STANISLAS</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>25 AVENUE BIECKERT</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>1425</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06008</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 81 53 36</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 53 51 31</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060729k@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>536</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 1</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.274632,43.705716</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061741K<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> ALLIANCE/APEDA<br>
+<b>coll_adr:</b> 22 RUE MICHELET<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06100
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061741K</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>ALLIANCE/APEDA</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>22 RUE MICHELET</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06100</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 07 88 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 07 88 11</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061741k@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>63</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.259113,43.714591</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061772U<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> OR TORAH<br>
+<b>coll_adr:</b> 2 AVENUE VILLEBOIS MAREUIL<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061772U</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>OR TORAH</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>2 AVENUE VILLEBOIS MAREUIL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 53 43 42</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 53 44 43</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0061772u@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>85</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.272625,43.709802</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061458C<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> INSTITUTION ST JOSEPH CARNOLES<br>
+<b>coll_adr:</b> 191 AVENUE ARISTIDE BRIAND<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06190
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061458C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>INSTITUTION ST JOSEPH CARNOLES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>191 AVENUE ARISTIDE BRIAND</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06190</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ROQUEBRUNE-CAP-MARTIN</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 35 85 68</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 28 27 03</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060750h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>470</value>
+				</Data>
+				<Data name='localite'>
+					<value>ROQUEBRUNE CAP MARTIN</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.484164,43.764983</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060744B<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> NOTRE-DAME DU SACRE COEUR<br>
+<b>coll_adr:</b> VILLA BLANCHE 3 RUE PASTEUR<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06500
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060744B</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>NOTRE-DAME DU SACRE COEUR</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>VILLA BLANCHE 3 RUE PASTEUR</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06500</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>MENTON</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 10 56 10</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 10 56 19</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060744b@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>262</value>
+				</Data>
+				<Data name='localite'>
+					<value>MENTON</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.499117,43.773885</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060676C<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> BLANCHE DE CASTILLE<br>
+<b>coll_adr:</b> 17 AV DES CHENES-16 AV DILLIES<br>
+<b>coll_adr2:</b> VICTORIA PARK<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06300
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060676C</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>BLANCHE DE CASTILLE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>17 AV DES CHENES-16 AV DILLIES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>VICTORIA PARK</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06300</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 89 02 12</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 92 04 15 10</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060676c@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>309</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.296571,43.710466</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0060679F<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> DON BOSCO<br>
+<b>coll_adr:</b> 40 PLACE DON BOSCO<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06046
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0060679F</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>DON BOSCO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>40 PLACE DON BOSCO</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06046</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 92 85 85</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 92 85 80</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060773h@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>440</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE CEDEX 1</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.281638,43.709426</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0061460E<br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> SASSERNO<br>
+<b>coll_adr:</b> 1 PLACE SASSERNO<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0061460E</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SASSERNO</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>1 PLACE SASSERNO</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06000</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>NICE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 80 03 61</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value>04 93 85 14 51</value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0060677d@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>509</value>
+				</Data>
+				<Data name='localite'>
+					<value>NICE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.270687,43.702344</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> 0062011D<br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> INTERNATIONAL DE VALBONNE<br>
+<b>coll_adr:</b> RUE FREDERIC MISTRAL<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> 97<br>
+<b>coll_cp:</b> 06902
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value>0062011D</value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>INTERNATIONAL DE VALBONNE</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>RUE FREDERIC MISTRAL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value>97</value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06902</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VALBONNE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 92 96 52 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value></value>
+				</Data>
+				<Data name='coll_mel'>
+					<value>ce.0062011d@ac-nice.fr</value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>0</value>
+				</Data>
+				<Data name='localite'>
+					<value>SOPHIA-ANTIPOLIS</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.041636,43.621565</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> <br>
+<b>coll_type:</b> CLG<br>
+<b>coll_nom1:</b> COLLEGE<br>
+<b>coll_nom2:</b> SYDNEY BECHET<br>
+<b>coll_adr:</b> AVE DES AMPHORES<br>
+<b>coll_adr2:</b> <br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06160
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value></value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>SYDNEY BECHET</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>AVE DES AMPHORES</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value></value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06160</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>ANTIBES</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value></value>
+				</Data>
+				<Data name='coll_fax'>
+					<value></value>
+				</Data>
+				<Data name='coll_mel'>
+					<value></value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>0</value>
+				</Data>
+				<Data name='localite'>
+					<value></value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.092747,43.573303</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>coll_immat:</b> <br>
+<b>coll_type:</b> CLG P<br>
+<b>coll_nom1:</b> COLLEGE PRIVE<br>
+<b>coll_nom2:</b> LES CADRANS SOLAIRES<br>
+<b>coll_adr:</b> 11 ROUTE DE SAINT PAUL<br>
+<b>coll_adr2:</b> CLINIQUE LES CADRANS<br>
+<b>coll_bp:</b> <br>
+<b>coll_cp:</b> 06140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='coll_immat'>
+					<value></value>
+				</Data>
+				<Data name='coll_type'>
+					<value>CLG P</value>
+				</Data>
+				<Data name='coll_nom1'>
+					<value>COLLEGE PRIVE</value>
+				</Data>
+				<Data name='coll_nom2'>
+					<value>LES CADRANS SOLAIRES</value>
+				</Data>
+				<Data name='coll_adr'>
+					<value>11 ROUTE DE SAINT PAUL</value>
+				</Data>
+				<Data name='coll_adr2'>
+					<value>CLINIQUE LES CADRANS</value>
+				</Data>
+				<Data name='coll_bp'>
+					<value></value>
+				</Data>
+				<Data name='coll_cp'>
+					<value>06140</value>
+				</Data>
+				<Data name='coll_com'>
+					<value>VENCE</value>
+				</Data>
+				<Data name='coll_tel'>
+					<value>04 93 24 55 00</value>
+				</Data>
+				<Data name='coll_fax'>
+					<value></value>
+				</Data>
+				<Data name='coll_mel'>
+					<value></value>
+				</Data>
+				<Data name='coll_pays'>
+					<value>France</value>
+				</Data>
+				<Data name='coll_effectifs'>
+					<value>0</value>
+				</Data>
+				<Data name='localite'>
+					<value>VENCE</value>
+				</Data>
+			</ExtendedData><Point><coordinates>7.121889,43.718455</coordinates></Point></Placemark>
+	</Document>
+</kml>
