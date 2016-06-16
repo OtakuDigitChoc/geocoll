@@ -1,9 +1,13 @@
 var map;
 var polySecteurs;
+var markerCluster;
+var infoWindows = [];
+var markers = [];
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 43.710173, lng: 7.261953199999994},
+    center: {lat: 43.946679, lng: 7.179026},
+    minZoom : 10,
     zoom: 9
   });
   DisplaySectors(map);
@@ -11,34 +15,39 @@ function initMap() {
   DisplayColleges(map);
 }
 
+/*@author : Ali Boulajine
+*@comment : reçoit en paramétre la map (pas necessaire) et une latLang,
+            renvoie le polygone (secteur) contenant la latlang passé en paramétres.
+ */
 function PinInPolygone(map, latLang){
-  var layerContaintPin;
-  var test = map.data.getFeatureById(4);
+  var layerContaintPin = null;
   map.data.forEach(function(feature){
     var geo =  feature.getGeometry();
-    var paths;
+    var paths = null;
     var type = geo.getType();
-    if (type === "MultiPolygon" || type === "Polygon"  ){
-      if (type === "MultiPolygon" ){
-        var multiPolygon= Array();
-        geo["j"][0]["j"].forEach(function(polygone){
-           multiPolygon.push(polygone["j"]);
+    geo.getArray().forEach(function(multiPoly){
+      if (type === "MultiPolygon" ) {
+        multiPoly.getArray().forEach(function(poly){
+          var multiPolygon= Array();
+             multiPolygon.push(poly.getArray());
+             paths = multiPolygon;
         });
-        paths = multiPolygon;
       }
       else {
-        paths = geo["j"][0]["j"];
+        paths = multiPoly.getArray();
       }
-
+    });
       var secteur = new google.maps.Polygon({paths:paths});
       if ( google.maps.geometry.poly.containsLocation(latLang,secteur)){
         layerContaintPin = feature;
       }
-    }
   });
   return layerContaintPin;
 }
 
+/*@author : Ali Boulajine
+*@comment : Ajout de la couche data (secteurs.json)
+ */
 function DisplaySectors(map){
   map.data.addGeoJson(secteurs,'1');
   map.data.setStyle(function(feature) {
@@ -50,7 +59,7 @@ function DisplaySectors(map){
       strokeWeight: 1
     };
   });
-  map.data.addListener('mousedown', function(event) {
+    map.data.addListener('mousedown', function(event) {
     map.data.revertStyle();
     map.data.overrideStyle(event.feature, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
     document.getElementById('info-box').textContent = event.feature.getProperty('NOM_SECTEUR');
@@ -62,12 +71,17 @@ function DisplaySectors(map){
   });*/
 }
 
+/*@author : Ali Boulajine
+*@comment :- recherche adresse
+           - itinéraire à partir de l'adresse rechercher et le collége de secteur
+ */
 function SearchAdress(map){
   var geocoder = new google.maps.Geocoder();
   var directionsService = new google.maps.DirectionsService;
   var directionsDisplay = new google.maps.DirectionsRenderer;
-  var travel_mode = google.maps.TravelMode.WALKING;
+  var travel_mode = google.maps.TravelMode.WALKING;//mode itinéraire à pied
   directionsDisplay.setMap(map);
+
   var place_id = null;
   var options = {
     componentRestrictions: {country: 'fr'}
@@ -81,7 +95,7 @@ function SearchAdress(map){
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(types);
 
     var autocomplete = new google.maps.places.Autocomplete(input, options);
-    console.log(input);
+    //console.log(input);
     autocomplete.bindTo('bounds', map);
 
     var infowindow = new google.maps.InfoWindow();
@@ -93,7 +107,7 @@ function SearchAdress(map){
     autocomplete.addListener('place_changed', function() {
       infowindow.close();
       marker.setVisible(false);
-      console.log(autocomplete);
+      //console.log(autocomplete);
       var place = autocomplete.getPlace();
       if (!place.geometry) {
         window.alert("Impossible de trouver votre adresse");
@@ -116,32 +130,33 @@ function SearchAdress(map){
       }));
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
-      console.log(place.place_id);
+      //console.log(place.place_id);
       var layerContaintPin = PinInPolygone(map,place.geometry.location);
       map.data.revertStyle();
       map.data.overrideStyle(layerContaintPin, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
-      console.log(layerContaintPin);
+      //console.log(layerContaintPin);
       var adresse_dest = layerContaintPin['H'].ADRESSE +", alpes maritimes";
       geocoder.geocode({'address': adresse_dest}, function(results, status) {
       if (status === google.maps.GeocoderStatus.OK) {
         place_id = results[0].place_id;
-        console.log(place_id);
+        //console.log(place_id);
           directionsService.route({
             origin: {'placeId': place.place_id},
             destination: {'placeId': place_id},
             travelMode: travel_mode
           }, function(response, status) {
-            console.log(status);
-            console.log(response);
+            //console.log(status);
+            //console.log(response);
           if (status === google.maps.DirectionsStatus.OK) {
             directionsDisplay.setDirections(response);
           }
           else {
-            window.alert('Directions request failed due to ' + status);
+            window.alert('On arrive pas à calculer votre itinéraire ' + status);
           }
           });
+
         } else {
-          alert('Geocode was not successful for the following reason: ' + status);
+          alert('On arrive pas à calculer votre itinéraire : pb adresse college ' + status);
         }
       });
 
@@ -155,41 +170,43 @@ function SearchAdress(map){
       }
 
 
-      infowindow.setContent('<div><strong>COLLEGE ' + layerContaintPin['H'].NOM_SECTEUR + '</strong><br>' + address);
+      infowindow.setContent('<div><strong>Votre Adresse</strong><br>' + address);
+      FindMarker(layerContaintPin['H'].NOM_SECTEUR);
       infowindow.open(map, marker);
     });
 }
 
+/*@author : Ali Boulajine
+ *@comment : reçoit en paramétre la map (pas necessaire), charge le fichier kml (layer college)
+            en ajax (jquery-2.2.4.js) puis on le converti avec la bibliothéque (togeojson.js) et on boucle
+            sur les feature pour ajouter chaque marker et sont infowindow.
+            les markers sont mit dans un cluster avec la bibliothéque (markerClusterer.js)
+ */
 function DisplayColleges(map){
   var pinBlue = {
     url: 'img/university-blue.png',
-    // This marker is 20 pixels wide by 32 pixels high.
     size: new google.maps.Size(32, 37),
-    // The origin for this image is (0, 0).
     origin: new google.maps.Point(0, 0),
-    // The anchor for this image is the base of the flagpole at (0, 32).
-    anchor: new google.maps.Point(0, 32)
+    anchor: new google.maps.Point(0, 37)
   };
   var pinRed = {
     url: 'img/university-red.png',
-    // This marker is 20 pixels wide by 32 pixels high.
     size: new google.maps.Size(32, 37),
-    // The origin for this image is (0, 0).
     origin: new google.maps.Point(0, 0),
-    // The anchor for this image is the base of the flagpole at (0, 32).
-    anchor: new google.maps.Point(0, 32)
+    anchor: new google.maps.Point(0, 37)
   };
   $.ajax('data/colleges.kml').done(function(geojsonColleges) {
       var infoWindowActive = null;
-      var markers = [];
       var colleges = toGeoJSON.kml(geojsonColleges);
+      var contentInfo;
       colleges.features.forEach(function(college){
         var properties = college.properties;
         var geometry = college.geometry;
-        var contentInfo = '<strong>'+properties.coll_nom1+'  '+ properties.coll_nom2+'</strong><br>';
+        contentInfo = '<strong>'+properties.coll_nom1+'  '+ properties.coll_nom2+'</strong><br>';
             contentInfo += properties.coll_adr +' '+properties.coll_com+'<br>';
             contentInfo += properties.coll_tel;
         var infoWindow = new google.maps.InfoWindow({
+          position: {lat : geometry.coordinates[1], lng :geometry.coordinates[0]},
           content: contentInfo
         });
         var marker = new google.maps.Marker({
@@ -200,16 +217,38 @@ function DisplayColleges(map){
           zIndex: properties.coll_type === "CLG P" ? 1 : 2
         });
         markers.push(marker);
+        infoWindows.push(infoWindow);
 
         google.maps.event.addListener(marker ,'click', function() {
+          console.log(infoWindow);
             if (infoWindowActive != null) infoWindowActive.close();
             infoWindow.open(map, marker);
             infoWindowActive = infoWindow;
+            document.getElementById('info-box').HTMLInputElement = contentInfo;
         });
       });
       var options = {
           imagePath: 'img/m'
       };
-      var markerCluster = new MarkerClusterer(map, markers, options);
+      markerCluster = new MarkerClusterer(map, markers, options);
   });
+}
+
+/*@author : Ali Boulajine
+ *@comment : reçoit en paramétre le nom du secteur, trouve le marker correspendant,
+            si il y'en a un on cherche l'infoWindow correspendant et on l'ouvre.
+ */
+function FindMarker(secteurName){
+  markers.find(function(marker){
+    if ( marker.title.includes(secteurName)) {
+      infoWindows.find(function(infoWindow){
+        if (infoWindow.getPosition().toString() === marker.position.toString() ){
+          console.log(infoWindow.getPosition().toJSON());
+          console.log(marker.position.toJSON());
+          infoWindow.open(map,marker);
+        }
+      });
+    }
+  });
+
 }
