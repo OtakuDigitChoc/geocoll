@@ -45,9 +45,7 @@ function PinInPolygone(map, latLang){
   return layerContaintPin;
 }
 
-/*@author : Ali Boulajine
-*@comment : Ajout de la couche data (secteurs.json)
- */
+
 function DisplaySectors(map){
   map.data.addGeoJson(secteurs,'1');
   map.data.setStyle(function(feature) {
@@ -70,10 +68,9 @@ function DisplaySectors(map){
     document.getElementById('info-box').textContent = "";
   });*/
 }
-
 /*@author : Ali Boulajine
 *@comment :- recherche adresse
-           - itinéraire à partir de l'adresse rechercher et le collége de secteur
+           - itinérao
  */
 function SearchAdress(map){
   var geocoder = new google.maps.Geocoder();
@@ -95,7 +92,7 @@ function SearchAdress(map){
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(types);
 
     var autocomplete = new google.maps.places.Autocomplete(input, options);
-    //console.log(input);
+    console.log(input);
     autocomplete.bindTo('bounds', map);
 
     var infowindow = new google.maps.InfoWindow();
@@ -107,7 +104,7 @@ function SearchAdress(map){
     autocomplete.addListener('place_changed', function() {
       infowindow.close();
       marker.setVisible(false);
-      //console.log(autocomplete);
+      console.log(autocomplete);
       var place = autocomplete.getPlace();
       if (!place.geometry) {
         window.alert("Impossible de trouver votre adresse");
@@ -130,23 +127,23 @@ function SearchAdress(map){
       }));
       marker.setPosition(place.geometry.location);
       marker.setVisible(true);
-      //console.log(place.place_id);
+      console.log(place.place_id);
       var layerContaintPin = PinInPolygone(map,place.geometry.location);
       map.data.revertStyle();
       map.data.overrideStyle(layerContaintPin, {fillColor: 'red',strokeColor: 'red',strokeWeight: 3});
-      //console.log(layerContaintPin);
-      var adresse_dest = layerContaintPin['H'].ADRESSE +", alpes maritimes";
+      console.log(layerContaintPin);
+      var adresse_dest = layerContaintPin['f'].ADRESSE +", alpes maritimes";
       geocoder.geocode({'address': adresse_dest}, function(results, status) {
       if (status === google.maps.GeocoderStatus.OK) {
         place_id = results[0].place_id;
-        //console.log(place_id);
+        console.log(place_id);
           directionsService.route({
             origin: {'placeId': place.place_id},
             destination: {'placeId': place_id},
             travelMode: travel_mode
           }, function(response, status) {
-            //console.log(status);
-            //console.log(response);
+            console.log(status);
+            console.log(response);
           if (status === google.maps.DirectionsStatus.OK) {
             directionsDisplay.setDirections(response);
           }
@@ -171,7 +168,7 @@ function SearchAdress(map){
 
 
       infowindow.setContent('<div><strong>Votre Adresse</strong><br>' + address);
-      FindMarker(layerContaintPin['H'].NOM_SECTEUR);
+      FindMarker(layerContaintPin['f'].NOM_SECTEUR);
       infowindow.open(map, marker);
     });
 }
